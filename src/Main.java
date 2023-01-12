@@ -43,5 +43,13 @@ public class Main {
         System.out.println(odds + "кг. Разница между весами бойцов");
         var oveload = mass2 % mass1;
         System.out.println(oveload + "кг. Разница между весами бойцов");
+
+        var totalhours = 640;
+        var spendHours = 8;
+        var people = totalhours / spendHours;
+        System.out.println("Всего работников в компании - " + people + " человек");
+        var people2 = people + 94;
+        var spendHours2 = totalhours / people2;
+        System.out.println("Если в компании работает " + people2 + " человек, то всего " + spendHours2 + " часов работы может быть поделено между сотрудниками.");
     }
 }
