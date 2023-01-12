@@ -41,5 +41,7 @@ public class Main {
         System.out.println(totalWeight + "кг. Вес двух бойцов");
         var odds = mass2 - mass1;
         System.out.println(odds + "кг. Разница между весами бойцов");
+        var oveload = mass2 % mass1;
+        System.out.println(oveload + "кг. Разница между весами бойцов");
     }
 }
